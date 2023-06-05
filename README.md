@@ -37,7 +37,7 @@
  
  ```
  docker run --name tgbot -d --restart=always \
- -p 8005:8000 \
+ -p 8001:8000 \
  -e ADMIN_CHAT_ID=112233 \
  -e BOT_API_KEY=112233:AAQQWW \
  -e URL=bot.site.com \

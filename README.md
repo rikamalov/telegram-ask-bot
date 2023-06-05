@@ -23,6 +23,7 @@
     - Перезапускаем Nginx
       - `sudo service nginx restart`
     - Если ошибки не выдало, значит конфиги верны
+ - Перенаправить домен на адрес сервера, прописав в настройках домена "А" запись. 
  - Настраиваем SSL и HTTPS 
     - Переходим на сайт certbot https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal
     - Исполняем команды с 1 по 7-ю.

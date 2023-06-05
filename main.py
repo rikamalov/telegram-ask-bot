@@ -45,4 +45,4 @@ async def read_root(obj: Answer):
 
 if __name__ == "__main__":
     requests.get(f'https://api.telegram.org/bot{TG_API}/setWebhook?url=https://{URL}/')
-    uvicorn.run("main:app", port=8001, host="0.0.0.0", reload=True)
+    uvicorn.run("main:app", port=8000, host="0.0.0.0", reload=True)

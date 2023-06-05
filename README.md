@@ -34,9 +34,12 @@
  - Собираем образ docker
  `docker build -t tgbotimg .` 
  - Запускаем контейнер, заменив значение ADMIN_CHAT_ID, BOT_API_KEY и URL на свои.
- ```docker run --name tgbot -d --restart=always \
-    -p 8005:8000 \
-    -e ADMIN_CHAT_ID=112233 \
-    -e BOT_API_KEY=112233:AAQQWW \
-    -e URL=bot.site.com \
-    tgbotimg
+ 
+ ```
+ docker run --name tgbot -d --restart=always \
+ -p 8005:8000 \
+ -e ADMIN_CHAT_ID=112233 \
+ -e BOT_API_KEY=112233:AAQQWW \
+ -e URL=bot.site.com \
+ tgbotimg
+ ```
